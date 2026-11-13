@@ -103,6 +103,6 @@ Screenshots and supporting evidence from the practical exercises are included be
 ![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-penetration-testing/blob/main/commande6.png?raw=true)
 ![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-penetration-testing/blob/main/theHarvester1.png?raw=true)
 ![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-penetration-testing/blob/main/theHarvester2.png?raw=true)
+![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-penetration-testing/blob/main/Capture%20d'%C3%A9cran%202026-11-12%20224036.png?raw=true)
 ![image alt](https://github.com/hajartouab27-prog/week2-project-cybersecurity-with-networkwalks-B084-penetration-testing/blob/main/Capture%20d'%C3%A9cran%202026-11-12%20224129.png?raw=true)
-![image alt]()
 

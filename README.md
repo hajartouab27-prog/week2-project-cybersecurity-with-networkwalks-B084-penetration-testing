@@ -8,7 +8,7 @@ Report/details	| Information
 ---|---
 Pentester	| Touab Hajar (Cybersecurity Student)
 Program / Batch	| B084 – Networkwalks
-Date	| 13 November 2026
+Date	| 12 November 2026
 Completed modules	| W2-PM1 – Multiple Kali Tools / W2-PM5 – Zenmap Scanning / W2-PM4 – Footp with theHarvester
 Client / Target	| 1. Networkwalks (written authorization obtained) / 2. Personal local LAN
 Client permission obtained?	| Yes

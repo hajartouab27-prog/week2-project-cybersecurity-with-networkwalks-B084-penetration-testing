@@ -40,12 +40,18 @@ the Harvester  	| Used for gathering information of emails, sub-domains, hosts f
 ## 4. Activities Performed
 ### 4.1 Footprinting and Reconnaissance
 I carried out reconnaissance on the networkwalks.com domain using six tools available in Kali Linux: WHOIS, WhatWeb, nslookup, curl, Wafw00f, and DNSRecon. Each tool was selected to collect a different category of information about the target.
+
 First, WHOIS was used to retrieve publicly accessible domain-registration information and identify the domain name servers. This information provided an overview of the domain registration and aspects of its hosting infrastructure.
+
 Next, whatweb was used to fingerprint the website and identify its underlying technologies. The scan reported WordPress version 7.1.4 and WP Download Manager version 3.3.78, in addition to other information exposed by the website.
+
 The nslookup command was then used to resolve the domain name through DNS. The result returned the IP address 192.232.216.135.
+
 After that, curl was executed with the -I option to retrieve the website’s HTTP response headers. The response provided technical details about the web application and revealed the WordPress REST API endpoint /wp-json/.
 wafw00f was subsequently used to check whether a Web Application Firewall was present. The result identified ModSecurity (SpiderLabs) as the WAF technology.
+
 Then, dnsrecon was used to enumerate DNS records. The collected information included name-server and mail-server details, SPF/TXT records, service records, and information about DNS software.
+
 Finaly, I used theHarvester tool installed by default in Kali Linux to test extracting emails, sub-domains, hosts, employees names, open ports and banners from different public sources. The source I used is Baidu and the target was microsoft.com. I sarted theHarvester and run the command theHarvester –d microsoft.com –l 1000 –b baidu and the command theHarvester –d microsoft.com –l 50 –d all.
 
 ### 4.2 Network Scanning with Zenmap
